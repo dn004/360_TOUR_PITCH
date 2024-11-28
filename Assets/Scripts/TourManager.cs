@@ -79,6 +79,7 @@ public class TourManager : MonoBehaviour
     {
         anim.SetBool("zoom", true);
         EntryPanel.SetActive(false);
+        FoundersPanel.SetActive(false);
         StartCoroutine(MoveToEntryHumanFood());
     }
 
